@@ -30,7 +30,7 @@ export default function NotesComponent({
         ...notesData,
         notes: inputButton.trim(),
         date: date,
-        time: `${time} ${time.slice(0, 3) > 12 ? "PM" : "AM"}`,
+        time: `${time} ${parseInt(time.slice(0, 3)) > 12 ? "PM" : "AM"}`,
       };
 
       if (localStorage.getItem("notesData")) {
