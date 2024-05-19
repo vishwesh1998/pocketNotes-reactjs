@@ -1,0 +1,26 @@
+.create-group-container {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+
+@media (max-width: 576px) {
+  .create-group-container {
+    left: 5%;
+    width: 90%;
+
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 578px) {
+  .create-group-container {
+    left: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .create-group-container {
+    left: 30%;
+  }
+}

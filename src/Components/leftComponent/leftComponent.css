@@ -1,0 +1,78 @@
+.upperLeft {
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  position: sticky;
+  top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.leftComponent {
+  width: 30vw;
+}
+
+.downLeftAddButton {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: white;
+  background: #16008b;
+  border-radius: 100%;
+  border: 1px solid #16008b;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.downLeft {
+  float: right;
+  margin-right: 3rem;
+
+  padding: 0;
+}
+
+.middleLeft {
+  height: 75%;
+  overflow: auto;
+  scrollbar-width: 10px;
+}
+
+.middleLeft div:hover {
+  background-color: rgb(214, 209, 209);
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .leftComponent {
+    width: 100vw;
+    height: 100vh;
+
+    display: block;
+  }
+
+  .upperLeft {
+    width: 100%;
+    margin: 0;
+  }
+
+  .middleLeft {
+    width: 100%;
+    margin: 0;
+  }
+
+  .leftComponentCopy {
+    display: none;
+  }
+
+  .downLeft {
+    position: relative;
+    top: -18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .leftComponent {
+    width: 25vw;
+    height: 85vh;
+  }
+}
