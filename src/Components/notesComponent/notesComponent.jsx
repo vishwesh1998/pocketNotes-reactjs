@@ -84,7 +84,7 @@ export default function NotesComponent({
                 background: currentUser.color,
                 fontSize: "1.5rem",
                 textAlign: "center",
-                paddingTop: "0.5rem",
+                paddingTop: "0.7rem",
               }}
             >
               {currentUser.name[0]}
