@@ -28,11 +28,10 @@ export default function LeftComponent({
                 style={{
                   display: "flex",
                   padding: "1rem",
-                  fontSize: "1.5rem",
+                  fontSize: "1.8rem",
                   justifyContent: "space-between",
                   cursor: "pointer",
                   margin: "1rem",
-                  fontFamily: "cursive",
                 }}
               >
                 <div

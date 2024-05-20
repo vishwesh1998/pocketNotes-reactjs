@@ -1,26 +1,26 @@
 .notesComponent {
   width: 80vw;
   height: 100vh;
-  font-family: cursive;
+  /* font-family: cursive; */
   margin-left: auto;
 }
 
 .notesUpperComponent {
   height: 14vh;
-
+  font-size: 2rem;
   color: white;
 }
 
 .notesMiddleComponent {
   height: 37.5vh;
-
+  font-family: cursive;
   padding: 3rem;
   overflow: auto;
 }
 
 .notesBottomComponent {
   height: 25vh;
-
+  font-family: cursive;
   background: #001f8b;
   padding: 1.5rem;
   position: relative;
@@ -72,11 +72,7 @@
     width: 100vw;
   }
 
-  .notesComponentCopy {
-    display: none;
-  }
-
   .notesBottomComponent {
-    height: 23%;
+    height: auto;
   }
 }
